@@ -1,7 +1,7 @@
 import React from 'react'
 import "../assets/header.css";
 import NotificationsIcon from '@mui/icons-material/Notifications';
-import { Button } from '@mui/material';
+import SearchIcon from '@mui/icons-material/Search';
 
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
         <div className="logo">CollisionMateX</div>
         <div className="search-bar">
             <input type="text" placeholder="Search..." />
-            <span class="icon">🔍</span>       
+            <SearchIcon />     
         </div>
         <NotificationsIcon size="100" className="wifi" />
         <p>Collision & Glass Shop | Shop Id : xxxxx</p>
