@@ -1,0 +1,64 @@
+/* Header styles for desktop */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 24px;
+    align-items: center;
+    /* display: flex; */
+  }
+  
+  /* Header styles for mobile */
+  @media (max-width: 768px) {
+    .header {
+      padding: 0.5rem;
+    }  
+    .logo {
+      font-size: 20px;
+    }
+  }
+
+
+  /*search icon putting*/
+
+  .search-bar {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .icon {
+    position: absolute;
+    right: 0;
+  }
+
+
+  /* Search bar styles */
+.search-bar {
+    display: flex;
+    align-items: center;
+    /* margin-left: auto; */
+  }
+  
+  .search-bar input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-bar button {
+    margin-left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+
+  
